@@ -7,10 +7,12 @@
     --white-color:#dff3e4;
 }
 
-body{
-
-    color: var(--dark-color);
+body{ 
+    color: var(--dark-color);  
+    padding: 0;
 }
+
+ 
 
 nav{
     background-color: var(--dark-color);
@@ -27,6 +29,7 @@ footer{
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -75,4 +78,8 @@ pre[class*="language-"] {
 white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
+}
+
+.alarm{
+    color: red;
 }
